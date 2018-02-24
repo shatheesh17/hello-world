@@ -7,7 +7,7 @@ FROM_EMAIL  = "shatheeshrocks" + ORG_EMAIL
 FROM_PWD    = "fire01bolt"
 SMTP_SERVER = "imap.gmail.com"
 SMTP_PORT   = 993
-
+#Just to make sure I can commit on github
 def read_email_from_gmail():
     try:
         mail = imaplib.IMAP4_SSL(SMTP_SERVER)
